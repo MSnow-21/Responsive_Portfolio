@@ -47,7 +47,15 @@ main {
     /* Visual */
     background: #4aaaa5;
 }
-  
+
+/* Portfolio.html image size properties */
+
+#Img1, #Img2, #Img3, #Img4, #Img5{
+  height: 350px;
+  width: 350px;
+}
+
+ 
   /* override bootstrap hover color and border */
 .navbar-default .navbar-nav > li > a:hover {
     color: #4aaaa5;
