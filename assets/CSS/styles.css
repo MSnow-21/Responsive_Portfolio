@@ -1,10 +1,10 @@
-/* --- STYLES FOR ALL PAGES --- */
+/* --- STYLES FOR PORTFOLIO, INDEX, and CONTACT --- */
 body {
-    /* Typography */
-    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    /* Font Family for all pages */
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   
-    /* Visual */
-    background-image: url("../imgs/view.PNG");
+    /* Background Image for all Pages */
+    background-image: url("../imgs/prism.PNG");
 }
   
 html {
