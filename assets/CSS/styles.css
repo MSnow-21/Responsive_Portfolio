@@ -22,7 +22,7 @@ main {
 
   /* create styles for use for all white main boxes */
 .block {
-    background-color: #fff;
+    background-color: #f8f9fa;
   
     padding: 30px;
     margin-bottom: 30px;
@@ -30,7 +30,7 @@ main {
   
 .block-header {
     /* Typography */
-    color: #4aaaa5;
+    color: #343a40;
     font-family: Georgia, Times, "Times New Roman", serif;
     font-weight: bold;
 }
@@ -42,10 +42,11 @@ main {
     /* Typography */
     font-size: 24px;
     font-weight: bold;
+    padding: 10px;
     color: #fff;
   
     /* Visual */
-    background: #4aaaa5;
+    background: #343a40;
 }
 
 /* Portfolio.html image size properties */
@@ -67,6 +68,7 @@ main {
 }
   
   /* media query for nav background color change */
+  
 @media only screen and (max-width: 767px) {
     .navbar-header {
       background-color: #4aaaa5;
@@ -125,13 +127,15 @@ main {
     padding-top: 3px;
   
     /* Visual */
-    background-color: #4aaaa5;
+    background-color: #f8f9fa;
 }
   /* END FOOTER */
   /* --- END STYLES FOR ALL PAGES --- */
   
   /* --- PAGE-SPECIFIC STYLES --- */
   /* ABOUT-ME PAGE */
+
+  
 .about-me-header {
     /* Positioning */
     margin-bottom: 33px;
@@ -142,7 +146,7 @@ main {
     font-weight: bold;
     color: #4aaaa5;
 }
-  
+
 #about-image {
     /* Positioning */
     float: left;
@@ -174,14 +178,14 @@ main {
 .submit-btn {
     /* Box-model */
     padding: 15px 30px;
-    font-size: 16px;
+    font-size: 18px;
     font-weight: lighter;
   
     /* Typography */
-color: #fff;
+    color: #fff;
   
     /* Visual */
-    background-color: #4aaaa5;
+    background-color: #343a40;
     border: 0;
 }
   
