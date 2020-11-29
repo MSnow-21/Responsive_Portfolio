@@ -1,197 +1,141 @@
-/* --- STYLES FOR PORTFOLIO, INDEX, and CONTACT --- */
+/* --- BODY Setting for Portfolio, Index, and Contact html --- */
+
 body {
-    /* Font Family for all pages */
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  
-    /* Background Image for all Pages */
-    background-image: url("../imgs/prism.PNG");
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  background-image: url("../imgs/prism.PNG");
 }
-  
+
+/* Positions Container to a Relative to page position */
 html {
-    /* Positioning */
-    position: relative;
-  
-    /* Box-model */
-    min-height: 100%;
+  position: relative;
+  min-height: 100%;
 }
   
-  /* add space for fixed nav */
+/* Adds spaced between Nav Bar and Containers */
 main {
-    margin: 80px 0;
+  margin: 80px 0;
 }
 
-  /* create styles for use for all white main boxes */
-.block {
-    background-color: #f8f9fa;
-  
-    padding: 30px;
-    margin-bottom: 30px;
-}
-  
-.block-header {
-    /* Typography */
-    color: #343a40;
-    font-family: Georgia, Times, "Times New Roman", serif;
-    font-weight: bold;
-}
-  
-  /* NAV START */
+/* Begin - Navbar Properties Section * /
+
+/* NAVBAR LOGO */
 #logo {
-    font-family: Georgia, Times, "Times New Roman", serif;
-  
-    /* Typography */
-    font-size: 24px;
-    font-weight: bold;
-    padding: 10px;
-    color: #fff;
-  
-    /* Visual */
-    background: #343a40;
-}
-
-/* Portfolio.html image size properties */
-
-#Img1, #Img2, #Img3, #Img4, #Img5{
-  height: 350px;
-  width: 350px;
-}
-
- 
-  /* override bootstrap hover color and border */
-.navbar-default .navbar-nav > li > a:hover {
-    color: #4aaaa5;
+  font-size: 24px;
+  font-weight: bold;
+  padding: 10px;
+  color: #fff;
+  background: #343a40;
 }
   
 .navbar {
-    background: white;
-    border: none;
+  background: white;
+  border: none;
 }
-  
-  /* media query for nav background color change */
-  
+    
+/* media query for nav background color change */
+    
 @media only screen and (max-width: 767px) {
-    .navbar-header {
-      background-color: #4aaaa5;
-    }
+  .navbar-header {
+    background-color: #4aaaa5;
 }
-  /* END NAV */
-  
-  
-  /* CONNECT W/ ME CSS */
-.connect-header {
-    /* Typography */
-    font-size: 25px;
 }
-  
-.connect-photo {
-    /* Box-model */
-    width: 55px;
-    height: 55px;
+/* END NAVBAR PROPERTIES */
+    
+
+/* Begin - Block Properties of all sections */
+
+/* Article Block properties for Portolio, Index, and Contact pages  */
+.block {
+  background-color: #f8f9fa;  
+  padding: 30px;
+  margin-bottom: 30px;
 }
   
-#images {
-    /* Box-model */
-    padding-top: 15px;
-  
-    /* Typography */
-    text-align: center;
+/* Header properties for Article Blocks - Portfilio, About - Me, Contact */
+.block-header {
+  color: #343a40;
+  font-weight: bold;
 }
-  /* END CONNECT W/ ME */
-  
-  
-  /* BEGIN FOOTER */
+
+/* BEGIN - FOOTER Properties */
 .footer {
-    /* Positioning */
-    position: absolute;
-    bottom: 0;
+  /* Positioning */
+  position: absolute;
+  bottom: 0;
   
-    /* Box-model */
-    width: 100%;
-    height: 60px;
+  /* Box-model */
+  width: 100%;
+  height: 60px;
   
-    /* Visual */
-    background-color: #3685d4;
+  /* Visual */
+  background-color: #3685d4;
 }
   
 .text-muted-footer {
-    /* Box-model */
-    margin-top: 15px;
+  /* Box-model */
+  margin-top: 15px;
   
-    /* Typography */
-    color: #fff;
+  /* Typography */
+  color: #fff;
 }
   
 .two-toned-footer-color {
-    /* Box-model */
-    height: 6px;
-    padding-top: 3px;
+  /* Box-model */
+  height: 6px;
+  padding-top: 3px;
   
-    /* Visual */
-    background-color: #f8f9fa;
+  /* Visual */
+  background-color: #f8f9fa;
 }
-  /* END FOOTER */
-  /* --- END STYLES FOR ALL PAGES --- */
-  
-  /* --- PAGE-SPECIFIC STYLES --- */
-  /* ABOUT-ME PAGE */
+/* END - FOOTER Properties */
 
-  
-.about-me-header {
-    /* Positioning */
-    margin-bottom: 33px;
-    font-family: Georgia, Times, "Times New Roman", serif;
-  
-    /* Typography */
-    font-size: 32px;
-    font-weight: bold;
-    color: #4aaaa5;
-}
+
+/* Page Specific styles - About Me, Portfolio, Contact Details */
+
+/* ABOUT-ME PAGE Details */
 
 #about-image {
-    /* Positioning */
-    float: left;
+  /* Positioning */
+  float: left;
   
-    /* Box-model */
-    width: 200px;
-    margin: 0 20px 10px 0;
+  /* Box-model */
+  width: 200px;
+  margin: 0 20px 10px 0;
 }
-  /* END ABOUT-ME PAGE */
   
-  
-  /* PORTFOLIO PAGE */
+/* PORTFOLIO PAGEDetails */
 .port-image {
-    margin: 20px auto;
+  height: 350px;
+  width: 350px;
+  margin: 20px auto;
 }
-  /* END PORTFOLIO PAGE */
-  
-  
-  /* CONTACT FORM PAGE  */
+ 
+/* CONTACT FORM PAGE Details */
 .form-control {
-    /* give input boxes right angles */
-    border-radius: 0;
+  /* give input boxes right angles */
+  border-radius: 0;
   
-    /* keep from horizontally resizing text area */
-    min-width: 100%;
-    max-width: 100%;
+  /* keep from horizontally resizing text area */
+  min-width: 100%;
+  max-width: 100%;
 }
   
 .submit-btn {
-    /* Box-model */
-    padding: 15px 30px;
-    font-size: 18px;
-    font-weight: lighter;
+  /* Box-model */
+  padding: 15px 30px;
+  font-size: 18px;
+  font-weight: lighter;
   
-    /* Typography */
-    color: #fff;
+  /* Typography */
+  color: #fff;
   
-    /* Visual */
-    background-color: #343a40;
-    border: 0;
+  /* Visual */
+  background-color: #343a40;
+  border: 0;
 }
   
 .submit-btn:hover {
-    opacity: .7;
+  opacity: .7;
 }
-  
-  /* END CONTACT FORM PAGE */
+/* End Specific Page Details */
   
