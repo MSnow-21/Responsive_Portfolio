@@ -22,6 +22,9 @@ Navigation bar open after clicking to view Portfolio, About-Me, and Contact sect
 Contact Me Section submittal details.
 ![](./assets/IMGS/contactsubmitarrow.png)
 
+Portfolio's can be reached by clicking any of the images.
+![](./assets/IMGS/projectlinks.png)
+
 
 Description:
 
